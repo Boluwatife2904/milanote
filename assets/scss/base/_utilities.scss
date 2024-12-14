@@ -1,0 +1,40 @@
+$displays: flex, block;
+$flex-directions: column;
+$items-alignment: center, space-between;
+$content-justification: center, space-between;
+
+@each $display in $displays {
+	.#{$display} {
+		display: $display;
+	}
+}
+
+@each $direction in $flex-directions {
+	.flex-#{$direction} {
+		flex-direction: $direction;
+	}
+}
+
+@each $alignment in $items-alignment {
+	.items-#{$alignment} {
+		align-items: $alignment;
+	}
+}
+
+@each $justification in $content-justification {
+	.content-#{$justification} {
+		justify-content: $justification;
+	}
+}
+
+.manrope-font {
+	font-family: "Manrope", ;
+}
+
+.fredericka-font {
+	font-family: "Fredericka The Great";
+}
+
+.krylon-font {
+	font-family: "Krylon";
+}
