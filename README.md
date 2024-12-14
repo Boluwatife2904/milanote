@@ -1,4 +1,9 @@
-# Nuxt 3 Minimal Starter
+# Milanote
+
+
+## Preview 
+
+https://github.com/user-attachments/assets/149020c1-c500-4b54-af26-f98d414d7313
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
